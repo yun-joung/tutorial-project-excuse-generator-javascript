@@ -1,12 +1,12 @@
 
 window.onload = () => {
     document.querySelector('#start').addEventListener("click", () => {
-    document.querySelector('#excuse').innerHTML = generateExcuse ();
+    document.querySelector('#name').innerHTML = generateDomain ();
 });
     
 };
 
-let generateExcuse = () => {
+let generateDomain = () => {
 
     let who = ['The dog','My grandma','His turtle','My bird'];
     let action= ['ate','peed','crushed','broke'];
