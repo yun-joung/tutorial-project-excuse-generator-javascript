@@ -1,8 +1,8 @@
 
 window.onload = () => {
     document.querySelector('#start').addEventListener("click", () => {
-    document.querySelector('#name').innerHTML = generateDomain ();
-});
+    document.querySelector('#excuse').innerHTML = generateDomain ();
+ });
     
 };
 
